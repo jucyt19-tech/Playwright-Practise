@@ -1,0 +1,1 @@
+[{"uid":"fee8c2b486482443","name":"Add new user","time":{"start":1781521238809,"stop":1781521252800,"duration":13991},"status":"passed","severity":"normal"},{"uid":"6810c9c41c10ef48","name":"Login to grocery app","time":{"start":1781521210995,"stop":1781521216957,"duration":5962},"status":"passed","severity":"normal"}]
