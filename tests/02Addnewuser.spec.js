@@ -20,8 +20,3 @@ test('Add new user',async({page})=>{
     await expect(page.getByRole('cell',{name})).toBeVisible()
 })
 
-//1.Install allure : npm install -D allure-playwright allure-commandline  
-//2.update playwright.config.js : reporter ['list'],['allure-playwright']],
-//3.run test : npx playwright test tests/allurereports.spec.js
-//4.generate report:npx allure generate allure-results --clean -o allure-report.  (here allure-results(.json and video) and alllure report folder will be created)
-//5.open report : npx allure open allure-report
